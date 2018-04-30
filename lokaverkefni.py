@@ -15,17 +15,6 @@ def error404(error):
     return 'Þetta er 404 villa'
 
 run(host="0.0.0.0", port=os.environ.get("PORT"))
-#-------------------------------------------------------------- 
-"""@route("/setcookie")
-def index():
-    response.set_cookie("Kaka","nammikaka")
-    return "búa til köku"
-
-@route("/deletecookie")
-def index():
-    response.set_cookie("Kaka","", expires=0)
-    return "Kakan er farin"
-"""
 
 
 
