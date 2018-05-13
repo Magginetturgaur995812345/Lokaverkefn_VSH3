@@ -1,0 +1,19 @@
+div{
+	margin: 50px;
+	border: 1px dotted;
+}   
+h3{
+	margin-top: 25px;
+	text-align: center;
+	display: grid;grid-template-columns:2fr 2fr 1fr;
+}
+body {
+	background-color: grey;
+	}
+img{float: left;}
+
+.breyting{
+	border: 2px solid;
+	text-align: right;
+	display: inline-grid;grid-template-rows: 1fr;
+	}
